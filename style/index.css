@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+
+.main-navs{
+    background-color: rgb(244, 188, 120);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.main-navs img{
+    max-width: 100%;
+    display: flex;
+    border-radius: 36px;
+}
+
+.nav-img{
+    max-width: 100px;
+    display: flex;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    width: 100%;
+}
+
+.nav-links a{
+    margin: 2px;
+    font-size: 24px;
+    border: 3px solid white;
+    border-radius: 36px;
+    width: 150px;
+    text-align: center;
+}
+
+.nav-links div{
+    display: inline-block;
+    color: azure;
+}
+
+body{
+    background-color: black;
+}
